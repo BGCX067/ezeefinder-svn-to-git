@@ -1,0 +1,77 @@
+
+fieldset 
+{
+	border:0 none;
+}
+
+div.featured 
+{
+	-moz-border-radius:10px 10px 10px 10px;
+	background-color:#EFEFFF;
+	border:1px solid #E3E3E3;
+	height:110px;
+	left:275px;
+	padding:10px;
+	position:absolute;
+	top:125px;
+	width:681px;
+	z-index:10;
+}
+
+div.Header
+{
+	padding:10px 0px 25px 125px; 
+	border-bottom: 1px solid #C2C2C2
+}
+
+div.Footer
+{
+	padding:450px 0px 0px 0px; 
+}
+
+body 
+{
+	color:#333333;
+	font-family:arial,helvetica,verdana,sans-serif;
+	font-size:12px;
+	
+}
+
+form legend 
+{
+	color:#333333;
+	font-size:20px;
+	font-weight:bold;
+	padding-bottom:5px;
+	padding-left:0;
+}
+
+form button 
+{
+	background:none repeat scroll 0 0 transparent;
+	border:medium none;
+	margin:0;
+	padding:0;
+	vertical-align:top;
+}
+
+form input#destination 
+{
+	font-size:22px;
+	width:550px;
+}
+
+#Footer 
+{
+	
+	position: relative;
+	color:#333333;
+	font-family:arial,helvetica,verdana,sans-serif;
+	font-size:12px;
+}
+
+#divFooter h3 
+{
+	border-top:1px dotted #D2D2D2;
+}
+

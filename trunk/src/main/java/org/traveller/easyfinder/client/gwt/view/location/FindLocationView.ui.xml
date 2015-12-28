@@ -1,0 +1,37 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder 	xmlns:ui="urn:ui:com.google.gwt.uibinder"
+     			xmlns:g="urn:import:com.google.gwt.user.client.ui">
+     			
+	<ui:style>
+	
+    	
+	</ui:style>
+
+	<g:DockLayoutPanel unit='EM' ui:field="mainLayoutPanel" >
+	
+	  <g:north size='5' ui:field="northPanel" >
+		<g:HTMLPanel>
+			<div style="border-bottom: 1px solid #EEE9E9;">
+				<img src="images/easy-finder-logo.png" />
+			</div>
+		</g:HTMLPanel>	  	
+	  </g:north>
+	  
+	  <g:center>
+	  
+	  	<g:SimplePanel ui:field="workAreaPanel">
+		</g:SimplePanel>
+		
+	  </g:center>
+	  
+	  <g:south size='5'>
+		<g:HTML>
+			<div style="border-top: 2px dotted #EEE9E9;">
+				<img src="images/appengine-noborder-120x30.gif" />
+			</div>
+		</g:HTML>	  	
+	  </g:south>
+	</g:DockLayoutPanel>
+
+</ui:UiBinder>

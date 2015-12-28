@@ -1,0 +1,70 @@
+
+body  	  
+{
+	padding: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+}
+
+.seachTextBox
+{
+	width: 450px;
+	height: 20px;
+	border: none;
+	padding:4px 8px;
+	margin-bottom:0px;
+}
+
+.seachButton
+{
+  	margin-left: 10px;
+  	text-decoration: none;
+  	font-size: small;
+  	cursor: hand;
+  	background: url("images/search_button.gif");
+  	border: 0px;
+  	width:  75px;
+  	height: 33px;
+}
+
+.searchResultsPopup
+{
+	border: 1px solid black;	
+	background-color: yellow;
+}
+
+.searchResultsHyperlink
+{
+	cursor: hand;	
+}
+
+.popupDecorationPanel
+{
+  	border: none;
+}
+
+.popupFlexTable
+{
+  	border: none;
+  	width: 300px;
+}
+
+.popupCloseButton
+{
+  	cursor: hand;
+  	width:  34px;
+  	height: 32px;
+  	
+  	background: url("images/popup-close.jpg");
+  	border: none;
+}
+
+.searchWorkArea
+{
+	padding: 75px 25px 50px 320px;
+}
+
+.searchPanel
+{
+	padding: 50px 25px 50px 25px;
+	background-color: #008000;
+}
